@@ -1,0 +1,11 @@
+# Cripto
+cryptography
+pycryptodome
+
+# Geral
+numpy
+numba
+jupyter
+ipykernel
+matplotlib
+pandas
