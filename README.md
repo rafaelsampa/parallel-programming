@@ -78,3 +78,24 @@ Adotamos a forma `drv.In/Out/InOut` por ser **mais concisa e intuitiva**. Foi um
 utilizamos durante o desenvolvimento. **A funcionalidade é equivalente** ao
 padrão apresentado em aula, e qualquer trecho pode ser reescrito usando
 `gpuarray.to_gpu(...)` / `.get()` sem alteração de comportamento.
+
+---
+
+
+## Resultado: Análise comparativa CPU vs GPU
+
+Tempos de execução para 64 MB (1.000.000 blocos x 256 threads):
+
+![Tempos CPU vs GPU](assets/ms_cpu_gpu.png)
+
+Verificação de correção contra OpenSSL e cálculo do speedup:
+
+![Verificação e speedup](assets/speedup.png)
+
+Curva de tempo por tamanho da mensagem (escala log-log):
+
+![CPU vs GPU em vários tamanhos](assets/cpuxgpu.png)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/16McDRkE-xSWmhdTfzRIi24KgJKEmh21D?usp=sharing)
+
+
