@@ -1,11 +1,4 @@
-# Cripto
-cryptography
-pycryptodome
-
-# Geral
+pycuda
 numpy
-numba
-jupyter
-ipykernel
+cryptography
 matplotlib
-pandas
